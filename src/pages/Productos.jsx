@@ -5,13 +5,14 @@ import conjunto from '../img/conjunto.png';
 import unicornio from '../img/unicornio.png';
 import banadoramarillo from '../img/banadoramarillo.png'; 
 
-
 function Productos() {
     return (
 <div className="containerHeader"> 
+
         <h1> Productos</h1>
     <div className="containerTituloHeader">
         <h2> Bañadores</h2>
+        
     </div>
 
           <div className="containerImgBanadores">

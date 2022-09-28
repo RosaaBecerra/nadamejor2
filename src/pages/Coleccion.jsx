@@ -10,7 +10,7 @@ function Coleccion () {
       
         <div>
             <div className="containerHeader"></div>
-        <p className="txt-coleccion"> <i className="fa-solid fa-less-than"></i> Colección  <i className="fa-solid fa-house"></i></p>
+        <p className="txt-coleccion"> <i className="fa-solid fa-less-than"></i> Colección <i class="fa-solid fa-cart-shopping"></i> </p>
        
        <Header/>
               

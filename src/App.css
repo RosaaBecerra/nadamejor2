@@ -11,14 +11,16 @@ top: 78px;
 left: 20px;
 font-family: Inter;
 font-size: 32px;
-font-weight: 800;
 line-height: 24px;
 text-align: center;
 color: white;
 display: flex;
  justify-content: center;
  }
-  
+  .menú{
+    display: flow-root;
+    letter-spacing: 13px;
+  }
   
   .nadamejor{
     font-family: 'Poppins', sans-serif;
@@ -39,7 +41,7 @@ display: flex;
 }
 .fa-solid{
   font-size: 40px;
-  width: 41px;
+  width: 56px;
 
 }
 
@@ -120,15 +122,18 @@ display: flex;
       }
       .txt-coleccion{
         height: 41px;
-        width: 307px;
+        width: 309px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 45px;
-        font-weight: 400;
         line-height: 40px;
         text-align: left;
         color: black;
        
 
+      }
+      .fa-cart-shopping{
+        width: 37px;
+       
       }
       .img-manguitoss{
         height: 241px;
