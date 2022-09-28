@@ -1,0 +1,22 @@
+ 
+
+             <img className="img-banador" src= {conjunto} alt= "conjuntobebe"/> 
+             <img className="img-banador" src= {rojo} alt= "banador" />
+             <img className="img-banador" src= {unicornio} alt="banadorunicornio"/>
+             <img className="img-banador" src={banadoramarillo} alt="amarillo"/>
+              
+              </div>
+        <div className="containerCardProducto">
+            <button className='btn-emoji'>♥</button> 
+            <h3 className="precio">10.99$</h3>
+            <button className='btn-emoji'>♥</button> 
+            <h3 className="precio">10.99$</h3>
+
+
+
+</div>
+
+<div className="botonfooter"> 
+        <p className="carrito"> Añadir al carrito</p>
+        
+        </div>
