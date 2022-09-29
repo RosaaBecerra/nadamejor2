@@ -7,19 +7,30 @@ height: 86px;
 width: 383px;
 border-radius: 77px;
 position: fixed;
-top: 78px;
+top: 778px;
 left: 20px;
-font-family: Inter;
-font-size: 32px;
+font-size: 28px;
 line-height: 24px;
 text-align: center;
 color: white;
 display: flex;
- justify-content: center;
+justify-content: center;
  }
+
+.buscar{
+   font-family: extrabold;
+    color: floralwhite;
+    justify-content: center;
+    margin-top: 17px;
+    text-align: center;
+    line-height: 1;
+}
+
+
   .menú{
     display: flow-root;
     letter-spacing: 13px;
+    font-size: 28px;
   }
   
   .nadamejor{
@@ -296,6 +307,8 @@ width: 101px;
 
 
     /*siguienteparrafo*/
+    
+    
     .ContainerHomeFuera{
       width: 100%;
       max-width: 495px;
