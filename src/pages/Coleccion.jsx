@@ -1,5 +1,5 @@
 
-import manguitoss from '../img/manguitoss.png';
+import unicornio from '../img/unicornio.png';
 import rojo from '../img/rojo.png';
 import '../App.css'
 import React from "react";
@@ -22,7 +22,7 @@ function Coleccion () {
                <p className="txt-nuevacoleccion"> NUEVA COLECCIÓN </p> 
         </div>
         <div className="containerImgProductos">
-             <img className="img-manguitoss" src= {manguitoss} alt= "mangui" /> 
+             <img className="img-unicornio" src= {unicornio} alt= "banador-unicornio" /> 
               <img className="img-banadorojo" src= {rojo} alt= "banador" />
               </div>
         <div className="containerCardProducto">

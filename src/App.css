@@ -31,6 +31,7 @@ justify-content: center;
     display: flow-root;
     letter-spacing: 13px;
     font-size: 28px;
+    
   }
   
   .nadamejor{
@@ -38,6 +39,7 @@ justify-content: center;
     color: rgb(96, 126, 170);
     font-size: 24px;
     text-align: center;
+    margin: 7%;
     }
   .container1{
     height: 54px;
@@ -146,7 +148,7 @@ justify-content: center;
         width: 37px;
        
       }
-      .img-manguitoss{
+      .img-unicornio{
         height: 241px;
         width: 201px;
         border-radius: 30px;
@@ -316,179 +318,305 @@ width: 101px;
       margin-right: auto;
     }
     
-      .botonfooter {
-     background-color: rgb(96, 126, 170);
-     height: 86px;
-     width: 383px;
-     border-radius: 77px;
-     position: fixed;
-     top: 778px;
-     left: 20px;
-     font-family: Inter;
-     font-size: 32px;
-     font-weight: 800;
-     line-height: 50px;
-     text-align: center;
-     color: white;
-     display: flex;
+     
+     
+
+
+    .botonfooter {
+      background-color: rgb(96, 126, 170);
+      height: 86px;
+      width: 383px;
+      border-radius: 77px;
+      position: fixed;
+      top: 778px;
+      left: 20px;
+      font-size: 28px;
+      line-height: 24px;
+      text-align: center;
+      color: white;
+      display: flex;
+      justify-content: center;
+       }
+      
+      .buscar{
+         font-family: extrabold;
+          color: floralwhite;
+          justify-content: center;
+          margin-top: 17px;
+          text-align: center;
+          line-height: 1;
+      }
+      
+      
+        .menú{
+          display: flow-root;
+          letter-spacing: 13px;
+          font-size: 28px;
+          
+        }
+        
+        .nadamejor{
+          font-family: 'Poppins', sans-serif;
+          color: rgb(96, 126, 170);
+          font-size: 24px;
+          text-align: center;
+          margin: 7%;
+          }
+        .container1{
+          height: 54px;
+          width: 357px;
+          display: flex;
+          justify-content: center;
+          background-color: white;
+      }
+       
+      .containerHeader{
+        justify-content: center;
+      }
+      .fa-solid{
+        font-size: 40px;
+        width: 56px;
       
       }
-       .buscar{
-        font-family: extrabold;
-        color: floralwhite;
-        justify-content: center;
-        margin-top: 11px;
-       text-align: center;
-       line-height: 1;
-       }
-       
-       .nadamejor{
-         font-family: 'Poppins', sans-serif;
-         color: rgb(96, 126, 170);
-         font-size: 24px;
-         text-align: center;
-         }
-       .container1{
-         height: 54px;
-         width: 357px;
-         display: flex;
-         justify-content: center;
-         background-color: white;
-     }
-     
-     .imgmenu{
-       height: 68px;
-       width: 70px;
-       border-radius: 50px;
-       }
-       
-       
-       .containerMenu{
-       display: flex;
-       justify-content: space-between;
-       padding: 2%;
-       }
       
-       .txtniños{
-         height: 296x;
-         width: 78px;
-         left: 16px;
-         top: 128px;
-         border-radius: nullpx;
-         font-family: Inter;
-         font-size: 20px;
-         font-weight: 800;
-         line-height: 25px;
-         letter-spacing: 0em;
-         text-align: center;
-         }
-         
-         .txtbebes{
-         height: 26px;
-         width: 78px;
-         left: 153px;
-         top: 128px;
-         border-radius: nullpx;
-         font-family: Inter;
-         font-size: 20px;
-         font-weight: 800;
-         line-height: 25px;
-         letter-spacing: 0em;
-         text-align: center;
-         }
-         
-         .txtaccesorios{
-         height: 26px;
-         width: 78px;
-         left: 274px;
-         top: 128px;
-         border-radius: nullpx;
-         font-family: Inter;
-         font-size: 20px;
-         font-weight: 800;
-         line-height: 25px;
-         letter-spacing: 0em;
-         text-align: center;
-         }
-      
-         .containerMain{
-           margin-top: 20%;
-           }
-     
-         .eslogan{
-           font-family: 'Poppins', sans-serif;
-           color: rgb(96, 126, 170);
-           font-size: 30px;
-           text-align: center;
-           } 
-           
-           .nadando{
-           height: 243px;
-           width: 414px;
-           left: 5px;
-           top: 485px;
-           border-radius: 10px;
-               
-           
-           }
-           .txt-coleccion{
-             height: 41px;
-             width: 249px;
-             left: 13073px;
-             top: 1944px;
-             border-radius: nullpx;
-             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-             font-size: 45px;
-             font-weight: 400;
-             line-height: 65px;
-             letter-spacing: 0em;
-             text-align: left;
-             color: black;
-     
-     
-           }
-           .img-manguitoss{
-             height: 230px;
-             width: 195px; 
-             border-radius: 30px;
-             background-color: #D9D9D9;
-             
-           }
-          .img-banadorojo{
-           
-           height: 230px;
-           width: 195px;
-           border-radius: 30px;
-           background-color: #D9D9D9;
-     
+      .imgmenu{
+        height: 68px;
+        width: 70px;
+        border-radius: 50px;
+        }
+        
+        
+        .containerMenu{
+        display: flex;
+        justify-content: space-between;
+        
+        }
+       
+        .txtniños{
+          height: 296x;
+          width: 78px;
+          left: 16px;
+          top: 128px;
+          border-radius: nullpx;
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 800;
+          line-height: 25px;
+          letter-spacing: 0em;
+          text-align: center;
           }
-         .containerTituloProductos{
-           align-items: left;
-           margin-top: -6%;
-         }
-          .txt-nuevacoleccion{
-           font-family: 'Poppins', sans-serif;
-           color:black;
-           font-size: 30px;
-           text-align: left;
-           padding: 2%;
-           } 
-          .containerProductos{
-          margin-top: 12%;
-          justify-content: space-between;  
           
+          .txtbebes{
+          height: 26px;
+          width: 78px;
+          left: 153px;
+          top: 128px;
+          border-radius: nullpx;
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 800;
+          line-height: 25px;
+          letter-spacing: 0em;
+          text-align: center;
           }
+          
+          .txtaccesorios{
+          height: 26px;
+          width: 78px;
+          left: 274px;
+          top: 128px;
+          border-radius: nullpx;
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 800;
+          line-height: 25px;
+          letter-spacing: 0em;
+          text-align: center;
+          }
+       
+          .containerMain{
+            margin-top: 20%;
+            }
+      
+          .eslogan{
+            font-family: 'Poppins', sans-serif;
+            color: rgb(96, 126, 170);
+            font-size: 30px;
+            text-align: center;
+            } 
+            
+            .nadando{
+            height: 243px;
+            width: 414px;
+            left: 5px;
+            top: 485px;
+            border-radius: 10px;
+                
+            
+            }
+            .txt-coleccion{
+              height: 41px;
+              width: 309px;
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              font-size: 45px;
+              line-height: 40px;
+              text-align: left;
+              color: black;
+             
+      
+            }
+            .fa-cart-shopping{
+              width: 37px;
+             
+            }
+            .img-unicornio{
+              height: 241px;
+              width: 201px;
+              border-radius: 30px;
+              background-color:#D9D9D9
+              
+            }
+           .img-banadorojo{
+            
+            height: 241px;
+            width: 201px;
+            border-radius: 30px;
+            background-color: #D9D9D9;
+      
+           }
+      
            
-          .containerImgProductos{
-          display: flex;
+          .containerTituloProductos{
+            align-items: left;
+            margin-top: -6%;
+          }
+           .txt-nuevacoleccion{
+            font-family: 'Poppins', sans-serif;
+            color:black;
+            font-size: 30px;
+            text-align: left;
+            padding: 2%;
+            } 
+           .containerProductos{
+           margin-top: 12%;
+           
+           justify-content: space-between;  
+           }
+            
+           .containerImgProductos{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           padding: 2%;
+          }
+      
+         .btn-mas{
+          
+          height: 44px;
+          width: 48px;
+          border-radius: 25px;
+          background-color: #D9D9D9;
+          font-size: 33px;
+      
+         }
+        .precio{
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 20px;
+        }
+      
+       .containerCardProducto{
+      
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           padding: 2%;
+       }
+         
+         .img-churros{
+          height: 151px;
+          width: 148px;
+          border-radius: 70px;
+         }
+         
+        
+        .containerImgBanadores{
+          
+          display: grid;
           flex-direction: row;
           justify-content: space-between;
-          padding: 2%;
-         
-         }
-     
-         
-     
-
-
-  
+          padding: 2%
+      
+      
+        }
+        .containerProducto{
+          display: grid;
+          
+          
+        }
+        .containerCajaPrecio{
+          display: flex;
+          justify-content: space-between;
+          height: 219px;
+          width: 192px;
+          margin: 7px;
+        }
+        
+      .img-banador{
+        height: 214px;
+        width: 213px;
+        border-radius: 104px;
+        background-color: #D9D9D9;
+      }
+      
+      
+        .btn-emoji{
+          height: 44px;
+          width: 48px;
+          border-radius: 25px;
+          background-color: #D9D9D9;
+          font-size: 33px;
+          
+      
+        }
+      
+      .containerInfoProduct{
+        background-color: #D9D9D9;
+      
+      }
+      
+      .img-pagar-banador{
+        height: 63px;
+        width: 71px;
+        left: 49px;
+        top: 186px;
+        border-radius: 0px;
+      background-color: white;  
+      }
+          
+      .txt-conjunto{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+      
+      .containerPrecioProducto{
+       background-color: aqua;
+      
+      }
+      
+      .txt-precio{
+       font-family: Inter;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      height: 37px;
+      width: 101px;
+      
+      }
+      
+      
+      
+      

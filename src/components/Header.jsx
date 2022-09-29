@@ -2,6 +2,7 @@ import niñosplaya from '../img/niñosplaya.webp';
 import bebes from '../img/bebes.jpg';
 import accesorios from '../img/accesorios.webp'
 import '../App.css'
+import { Link } from "react-router-dom";
 
 function Header (){
 return ( 
@@ -12,8 +13,9 @@ return (
 <div className="containerMenu">
         <div className="ninos">
             <h1 className="txtniños">Niños</h1>
+            <Link to= "/Coleccion">
             <img className="imgmenu" src={niñosplaya} alt="icono"/>
-           
+           </Link>
         </div>
 
         <div className="bebes">
